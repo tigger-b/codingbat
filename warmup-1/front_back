@@ -1,0 +1,10 @@
+def front_back(str):
+  length = len(str)
+  if len(str) > 1:
+    last = str[length-1]
+    first = str[0]
+    middle = (str[1: length - 1])
+    return last + middle + first
+  else:
+    return str
+
