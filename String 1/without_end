@@ -1,0 +1,3 @@
+def without_end(str):
+  length = (len(str)) -1
+  return str[1:length]
