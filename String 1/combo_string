@@ -1,0 +1,7 @@
+def combo_string(a, b):
+  one = (len(a))
+  two = (len(b))
+  if one > two:
+    return (b + a + b)
+  else:
+    return (a + b + a)
