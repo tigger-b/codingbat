@@ -1,0 +1,4 @@
+def extra_end(str):
+  length = (len(str)) -1
+  numbers = length -1
+  return (str[numbers] + str[length]) *3
