@@ -1,0 +1,4 @@
+def non_start(a, b):
+  one = (len(a))
+  two = (len(b))
+  return a[1:one] + b[1:two]
