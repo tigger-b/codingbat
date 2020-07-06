@@ -1,0 +1,6 @@
+def sorta_sum(a, b):
+  added = a + b
+  if added >= 10 and added <= 19:
+    return 20
+  else:
+    return added
