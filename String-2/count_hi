@@ -1,0 +1,3 @@
+def count_hi(str):
+  times = str.count('hi')
+  return times
