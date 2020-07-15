@@ -1,0 +1,7 @@
+def double_char(str):
+  output = ""
+  for char in str:
+    output = output + char
+    output = output + char
+  return output
+  
